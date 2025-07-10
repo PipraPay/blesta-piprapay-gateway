@@ -145,7 +145,7 @@ class Piprapay extends NonmerchantGateway
             header('Location:' . $response_decode['pp_url']);
             exit();
         }else{
-            die("Initialization Error: " . $e->getMessage());
+            die("Initialization Error: " . $response);
         }
     }
 
