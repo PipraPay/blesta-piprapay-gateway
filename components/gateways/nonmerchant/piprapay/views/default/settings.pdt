@@ -1,0 +1,20 @@
+<ul>
+    <li>
+        <?php
+        $this->Form->label($this->_('PipraPay.meta.api_key', true), 'api_key');
+        $this->Form->fieldText('api_key', ($meta['api_key'] ?? null), ['id' => 'api_key', 'class' => 'block']);
+        ?>
+    </li>
+    <li>
+        <?php
+        $this->Form->label($this->_('PipraPay.meta.api_url', true), 'api_url');
+        $this->Form->fieldText('api_url', ($meta['api_url'] ?? null), ['id' => 'api_url', 'class' => 'block']);
+        ?>
+    </li>
+    <li>
+        <?php
+        $this->Form->label($this->_('PipraPay.meta.pp_currency_code', true), 'pp_currency_code');
+        $this->Form->fieldText('pp_currency_code', ($meta['pp_currency_code'] ?? null), ['id' => 'pp_currency_code', 'class' => 'block']);
+        ?>
+    </li>
+</ul>

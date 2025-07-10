@@ -1,0 +1,15 @@
+{
+	"version": "1.0.0",
+	"name": "PipraPay.name",
+	"description": "PipraPay.description",
+	"authors": [
+		{
+			"name": "PipraPay Team",
+			"url": "https://piprapay.com"
+		}
+	],
+	"currencies": [
+		"BDT", "USD"
+	],
+	"signup_url": "https://piprapay.com"
+}
